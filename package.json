@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --open --port=4215",
+    "startaot": "ng serve --prod --open --port=4215",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -18,7 +19,10 @@
     "@angular/forms": "~8.2.14",
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
+    "@angular/pwa": "^0.803.19",
     "@angular/router": "~8.2.14",
+    "@angular/service-worker": "~8.2.14",
+    "a2hs.js": "^0.4.5",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
